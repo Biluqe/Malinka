@@ -1,0 +1,93 @@
+:root {
+  --text-color: #111512;
+  --bg-color: #f5f7f5;
+  --primary-color: #004514;
+  --secondary-color: #b5c1c3;
+  --accent-color: #f0284d;
+}
+
+body {
+  font-family: "Noto Music", sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--text-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+footer {
+  color: var(--bg-color);
+  background-color: var(--text-color);
+}
+/* Header Section */
+
+.nav-bar {
+  font-size: 1.6rem;
+  background-color: var(--text-color);
+}
+
+.nav-bar a,
+a:link,
+a:active,
+a:visited {
+  color: var(--bg-color);
+}
+
+.nav-bar a:hover {
+  color: var(--accent-color);
+}
+.nav-item:last-child {
+  margin-left: auto;
+}
+
+/* Home Section */
+
+.home-header {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.container {
+  font-size: 2rem;
+  background-image: linear-gradient(var(--secondary-color), var(--bg-color));
+  margin-bottom: 10rem;
+}
+
+.home-link {
+  font-size: 1.5rem;
+  background-color: var(--accent-color);
+}
+
+.album-paragraph {
+  font-size: 2rem;
+  text-align: center;
+  padding: 3rem;
+}
+.trasa-section {
+  background-color: #223527;
+  color: var(--bg-color);
+}
+
+/* organizatorzy-section */
+
+.organizatorzy-section {
+  font-size: 1.5rem;
+}
